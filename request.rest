@@ -1,0 +1,28 @@
+GET http://localhost:8080/users
+
+###
+GET http://localhost:8080/users/1
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "doe@gmail.com",
+    "gender" : "male"
+}
+
+###
+PATCH http://localhost:8080/users/1
+Content-Type: application/json
+
+{
+    "name": "John Dodale",
+    "email": "doele@gmail.com",
+    "gender" : "male"
+}
+
+
+###
+DELETE http://localhost:8080/users/2
