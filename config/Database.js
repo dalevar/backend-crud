@@ -8,4 +8,9 @@ const db = new Sequelize({
   logging: false,
 });
 
+// const db = new Sequelize("crud_db", "root", "", {
+//   host: "localhost",
+//   dialect: "mysql",
+// });
+
 export default db;
